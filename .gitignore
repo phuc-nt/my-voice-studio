@@ -1,0 +1,34 @@
+# Giọng ghi âm và audio tạo ra là dữ liệu sinh trắc học cá nhân: không đưa vào Git.
+recordings/*
+outputs/*
+!recordings/.gitkeep
+!outputs/.gitkeep
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.aiff
+*.aif
+*.caf
+
+# Hệ điều hành và môi trường
+.DS_Store
+.env
+.env.*
+
+# Công cụ Python
+.venv/
+__pycache__/
+models/
+
+# Gói profile giọng xuất từ VoiceStudio (chứa clip mẫu)
+*.omnivoice
+
+# Tài liệu handoff cho bên thứ ba: giữ ở máy, không vào Git
+docs/handoff-*.md
+docs/*third-party*.md
+
+# Ghi chú riêng của từng máy: tên và id profile, quy ước cá nhân
+*.local.md
