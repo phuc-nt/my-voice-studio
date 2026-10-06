@@ -2,6 +2,7 @@
 name = "my-voice-studio"
 version = "0.1.0"
 description = "Công cụ bổ sung quanh VoiceStudio để clone giọng tiếng Việt"
+license = "MIT"
 requires-python = ">=3.11,<3.13"
 dependencies = [
     "httpx",

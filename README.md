@@ -86,3 +86,7 @@ Kết quả A/B được lưu trong `outputs/ab-<thời gian>/`, gồm các file
 Giọng nói là dữ liệu sinh trắc học. File âm thanh trong `recordings/` và `outputs/`, cùng mọi file `.wav`, `.mp3`, `.m4a`, đều đã nằm trong `.gitignore`. Không đẩy chúng lên kho công khai và không chia sẻ profile giọng, trừ khi chủ giọng tự gửi gói `.omnivoice` cho một bên đã nhận điều kiện sử dụng bằng văn bản. Chỉ clone giọng của mình hoặc của người đã đồng ý.
 
 Weights của OmniVoice theo giấy phép CC-BY-NC, nên giọng tạo bằng model này chỉ được dùng phi thương mại. Nếu cần dùng thương mại, hãy chuyển sang VoxCPM2 hoặc VieNeu-TTS (Apache-2.0). Chi tiết nằm trong báo cáo nghiên cứu.
+
+## Giấy phép
+
+Tài liệu và script trong repo này theo giấy phép [MIT](LICENSE). Giấy phép này không áp dụng cho VoiceStudio (AGPL-3.0) hay weights của OmniVoice (CC-BY-NC), là những thứ repo này gọi tới chứ không chứa.
